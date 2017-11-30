@@ -8,7 +8,7 @@
 
 
 .blockVuzi {
-    margin: 15px;
+    margin: 25px;
     background: rgb(238,238,238); /* Old browsers */
     background: -moz-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -45,17 +45,8 @@
 
 }
 
-.linkVuzi:link {
-    text-decoration: none;
+.linkVuzi {
+    padding-bottom: 5px;
+    padding-right: 7px
 }
-.linkVuzi:visited {
-    text-decoration: none;
-    color: #c5001a;
-}
-.linkVuzi:active {
-    text-decoration: none;
 
-}
-.linkVuzi:hover {
-    text-decoration: underline; /* Делает ссылку подчеркнутой при наведении на нее курсора */
-}
