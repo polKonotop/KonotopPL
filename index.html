@@ -2,7 +2,7 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Робота в Польщі</title>
     <link rel="shortcut icon" href="Mists-Icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
@@ -12,17 +12,24 @@
 </head>
 <body>
 <div id="header">
-<div class="col-lg-3 icon_logo">
+    <div class="row header2">
+<div class="icon_logo col-xs-12">
     <img src="logo.png" height="45" width="200"/></div>
-    <div class="col-lg-3 inf_bar">
+    <div class="inf_bar col-xs-12">
         <address>
             <strong> номер: </strong><br> <strong> E-mail: </strong><br> <strong>адреса:</strong>
         </address>
     </div>
-    <nav class="navbar navbar-default" role="navigation" id="container_flu">
+    </div>
+    <nav class="navbar navbar-default col-xs-12" role="navigation" id="container_flu">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
+        <div class="navbar-heder">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -34,8 +41,8 @@
 
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Список <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">1</a> </li>
-                        <li><a href="#">2</a> </li>
+                        <li id="li"><a href="#">1</a> </li>
+                        <li id="li"><a href="#">2</a> </li>
                     </ul>
 
 
@@ -45,8 +52,8 @@
 
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Список <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">1</a> </li>
-                        <li><a href="#">2</a> </li>
+                        <li id="li"><a href="#">1</a> </li>
+                        <li id="li"><a href="#">2</a> </li>
                     </ul>
 
 
@@ -58,10 +65,11 @@
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav></div>
-<div class="text">
+<div class="text col-xs-12">
     ДПлвдаваовавл вдалв дльавдлавшв авдлаьвдш вашшвадшвадвао  дшаовдаьоваыщ шаыоавз аьыщшваоьывшаыоьашыьа ывшаоывашьвдмышвом шв  дшаовдша оыьв шо ывлащвалщв лыазы овлзаыщвоа ызвщал ыз щвоаызваыхщвшпоызщв шо  шо вщшаозва ыз щлы вщаоы зщвлазщвла щвлащв  зщл авзщалвазщвла заывщалыз ващыовщзл ыущ9залызщаозыв оалы зщваоы зщуао ызащшылуа
 </div>
-<div class="zayavka">
+<div class="zayavka col-xs-12
+">
     <form method="post" action="form.php">
         <input placeholder="ПІБ" type="text" id="zayavkaA" name="name" required>
         <input placeholder="E-mail" type="email" id="zayavkaB" name="mail" required>
